@@ -1,0 +1,14 @@
+/vendor
+.env
+.env.backup
+.env.production
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Dev
+*.bak*
+*.bak*/
+*.dev*
+*.dev*/
