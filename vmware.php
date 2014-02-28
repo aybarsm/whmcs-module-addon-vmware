@@ -4,3 +4,6 @@ function vmware_config() {
     "name" => "VMware",
 	"fields" => array(
 			"cronkey" => array ( "FriendlyName" => "Cron Key", "Type" => "password", "Size" => "50" )
+     ));
+    return $configarray;
+}
