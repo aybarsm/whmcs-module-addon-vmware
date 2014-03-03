@@ -7,3 +7,5 @@ function vmware_config() {
      ));
     return $configarray;
 }
+
+require_once("../modules/servers/vmware/vmware.php");
