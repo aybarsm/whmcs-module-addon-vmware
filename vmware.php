@@ -9,3 +9,7 @@ function vmware_config() {
 }
 
 require_once("../modules/servers/vmware/vmware.php");
+
+function create_table_vmware_iplist()
+{
+  $query = "CREATE TABLE IF NOT EXISTS `vmware_iplist` (
