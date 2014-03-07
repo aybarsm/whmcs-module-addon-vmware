@@ -16,3 +16,6 @@ function create_table_vmware_iplist()
     `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `ip` varchar(15) NOT NULL,
     `vmid` varchar(15) NOT NULL,
+    `clientid` varchar(15) NOT NULL,
+    `serviceid` varchar(100) NOT NULL,
+    `vmac` varchar(100) NULL,
