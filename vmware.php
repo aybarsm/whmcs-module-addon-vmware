@@ -19,3 +19,6 @@ function create_table_vmware_iplist()
     `clientid` varchar(15) NOT NULL,
     `serviceid` varchar(100) NOT NULL,
     `vmac` varchar(100) NULL,
+    `ip_type` enum('0','1','2') NOT NULL DEFAULT '0')";
+	full_query($query);
+}
