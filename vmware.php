@@ -22,3 +22,6 @@ function create_table_vmware_iplist()
     `ip_type` enum('0','1','2') NOT NULL DEFAULT '0')";
 	full_query($query);
 }
+
+function create_table_vmware_vncports()
+{
