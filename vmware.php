@@ -25,3 +25,6 @@ function create_table_vmware_iplist()
 
 function create_table_vmware_vncports()
 {
+  $query = "CREATE TABLE IF NOT EXISTS `vmware_vncports` (
+  `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `vmid` varchar(15) NOT NULL,
