@@ -31,3 +31,5 @@ function create_table_vmware_vncports()
   `hostip` varchar(30) NOT NULL,
   `vncport` varchar(30) NOT NULL,
   `serviceid` varchar(100) NOT NULL)";
+	full_query($query);
+}
