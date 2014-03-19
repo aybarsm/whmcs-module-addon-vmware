@@ -33,3 +33,7 @@ function create_table_vmware_vncports()
   `serviceid` varchar(100) NOT NULL)";
 	full_query($query);
 }
+
+function create_table_vmware_cron()
+{
+  $query = "CREATE TABLE IF NOT EXISTS `vmware_cron` (
