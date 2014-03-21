@@ -37,3 +37,6 @@ function create_table_vmware_vncports()
 function create_table_vmware_cron()
 {
   $query = "CREATE TABLE IF NOT EXISTS `vmware_cron` (
+  `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `process` varchar(30) NOT NULL,
+  `added` datetime DEFAULT NULL,
