@@ -40,3 +40,6 @@ function create_table_vmware_cron()
   `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `process` varchar(30) NOT NULL,
   `added` datetime DEFAULT NULL,
+  `serviceid` varchar(100) NOT NULL,
+  `lockjob` enum('0','1') NOT NULL DEFAULT '0',
+  `lastrun` datetime DEFAULT NULL,
