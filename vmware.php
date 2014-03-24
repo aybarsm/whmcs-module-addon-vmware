@@ -43,3 +43,6 @@ function create_table_vmware_cron()
   `serviceid` varchar(100) NOT NULL,
   `lockjob` enum('0','1') NOT NULL DEFAULT '0',
   `lastrun` datetime DEFAULT NULL,
+  `done` enum('0','1') NOT NULL DEFAULT '0',
+  `finished` datetime DEFAULT NULL,
+  `result` text)";
