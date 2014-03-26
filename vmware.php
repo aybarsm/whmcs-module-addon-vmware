@@ -46,3 +46,5 @@ function create_table_vmware_cron()
   `done` enum('0','1') NOT NULL DEFAULT '0',
   `finished` datetime DEFAULT NULL,
   `result` text)";
+	full_query($query);
+}
