@@ -48,3 +48,7 @@ function create_table_vmware_cron()
   `result` text)";
 	full_query($query);
 }
+
+function create_table_vmware_vcenter()
+{
+  $query = "CREATE TABLE IF NOT EXISTS `vmware_vcenter` (
