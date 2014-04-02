@@ -55,3 +55,6 @@ function create_table_vmware_vcenter()
   `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `server` varchar(255) NOT NULL,
   `uri` varchar(255) NOT NULL,
+  `namespace` varchar(255) NOT NULL,
+  `username` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
