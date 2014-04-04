@@ -58,3 +58,6 @@ function create_table_vmware_vcenter()
   `namespace` varchar(255) NOT NULL,
   `username` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
+  `folder` varchar(255) NOT NULL,
+  `resourcepool` varchar(255) NOT NULL,
+  `hostsystem` varchar(255) NOT NULL,
