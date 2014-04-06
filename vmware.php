@@ -61,3 +61,6 @@ function create_table_vmware_vcenter()
   `folder` varchar(255) NOT NULL,
   `resourcepool` varchar(255) NOT NULL,
   `hostsystem` varchar(255) NOT NULL,
+  `vmpathname` varchar(255) NOT NULL,
+  `ETHNormalName` varchar(255) NOT NULL,
+  `ETHNormalNetwork` varchar(255) NOT NULL,
