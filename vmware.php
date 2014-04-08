@@ -64,3 +64,6 @@ function create_table_vmware_vcenter()
   `vmpathname` varchar(255) NOT NULL,
   `ETHNormalName` varchar(255) NOT NULL,
   `ETHNormalNetwork` varchar(255) NOT NULL,
+  `ETHDSuuid` text,
+  `ETHDSPGKey` varchar(255) NOT NULL,
+  `NOCPSvmPoolID` int(11) NOT NULL,
