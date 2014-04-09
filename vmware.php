@@ -67,3 +67,6 @@ function create_table_vmware_vcenter()
   `ETHDSuuid` text,
   `ETHDSPGKey` varchar(255) NOT NULL,
   `NOCPSvmPoolID` int(11) NOT NULL,
+  `VMHWVersion` varchar(255) NOT NULL)";
+	full_query($query);
+}
