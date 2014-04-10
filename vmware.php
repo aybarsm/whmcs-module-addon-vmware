@@ -70,3 +70,6 @@ function create_table_vmware_vcenter()
   `VMHWVersion` varchar(255) NOT NULL)";
 	full_query($query);
 }
+
+function create_table_vmware_freenas()
+{
