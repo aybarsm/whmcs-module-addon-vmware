@@ -73,3 +73,6 @@ function create_table_vmware_vcenter()
 
 function create_table_vmware_freenas()
 {
+  $query = "CREATE TABLE IF NOT EXISTS `vmware_freenas` (
+  `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `server` varchar(255) NOT NULL,
