@@ -79,3 +79,5 @@ function create_table_vmware_freenas()
   `apiuri` varchar(255) NOT NULL,
   `localip` varchar(255) NOT NULL,
   `username` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `mainvolume` varchar(255) NOT NULL,
