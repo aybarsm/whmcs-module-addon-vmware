@@ -83,3 +83,4 @@ function create_table_vmware_freenas()
   `mainvolume` varchar(255) NOT NULL,
   `mail` varchar(255) NOT NULL)";
 	full_query($query);
+}
