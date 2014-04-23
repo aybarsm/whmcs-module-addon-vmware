@@ -87,3 +87,5 @@ function create_table_vmware_freenas()
 
 function create_table_vmware_vmac()
 {
+  $query = "CREATE TABLE IF NOT EXISTS `vmware_vmac` (
+  `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
