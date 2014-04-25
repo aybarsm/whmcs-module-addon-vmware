@@ -91,3 +91,5 @@ function create_table_vmware_vmac()
   `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `vmac` varchar(25) NOT NULL,
   `serviceid` varchar(100) NOT NULL,
+  `vmac_status` enum('0','1','2') NOT NULL DEFAULT '0')";
+	full_query($query);
