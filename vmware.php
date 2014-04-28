@@ -93,3 +93,4 @@ function create_table_vmware_vmac()
   `serviceid` varchar(100) NOT NULL,
   `vmac_status` enum('0','1','2') NOT NULL DEFAULT '0')";
 	full_query($query);
+}
