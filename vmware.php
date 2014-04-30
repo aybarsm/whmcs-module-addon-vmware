@@ -94,3 +94,6 @@ function create_table_vmware_vmac()
   `vmac_status` enum('0','1','2') NOT NULL DEFAULT '0')";
 	full_query($query);
 }
+
+function vmware_module_migrate()
+{
