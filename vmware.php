@@ -99,3 +99,5 @@ function vmware_module_migrate()
 {
   create_table_vmware_iplist();
   create_table_vmware_vncports();
+  create_table_vmware_cron();
+  create_table_vmware_vcenter();
