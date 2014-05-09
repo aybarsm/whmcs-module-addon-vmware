@@ -104,3 +104,6 @@ function vmware_module_migrate()
   create_table_vmware_freenas();
   create_table_vmware_vmac();
 }
+
+function vmware_activate() 
+{
