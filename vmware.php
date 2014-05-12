@@ -107,3 +107,5 @@ function vmware_module_migrate()
 
 function vmware_activate() 
 {
+	vmware_module_migrate();
+}
