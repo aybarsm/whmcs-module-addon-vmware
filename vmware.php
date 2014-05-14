@@ -109,3 +109,5 @@ function vmware_activate()
 {
 	vmware_module_migrate();
 }
+
+if($_POST['updateextr'] == 1){
