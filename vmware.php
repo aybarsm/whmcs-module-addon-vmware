@@ -111,3 +111,5 @@ function vmware_activate()
 }
 
 if($_POST['updateextr'] == 1){
+	
+	foreach($_POST['jumpMenu'] as $key => $val){
