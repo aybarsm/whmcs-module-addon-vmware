@@ -115,3 +115,4 @@ if($_POST['updateextr'] == 1){
 	foreach($_POST['jumpMenu'] as $key => $val){
 		mysql_query("update vmware_iplist set ip_type  = '".$_POST['jumpMenu'][$key]."' where ip='".$key."' ");		
 	}
+}
