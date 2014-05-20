@@ -116,3 +116,6 @@ if($_POST['updateextr'] == 1){
 		mysql_query("update vmware_iplist set ip_type  = '".$_POST['jumpMenu'][$key]."' where ip='".$key."' ");		
 	}
 }
+
+
+if($submitrange == 1)
