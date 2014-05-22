@@ -119,3 +119,5 @@ if($_POST['updateextr'] == 1){
 
 
 if($submitrange == 1)
+{
+if (empty($ipstart))
