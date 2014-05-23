@@ -121,3 +121,5 @@ if($_POST['updateextr'] == 1){
 if($submitrange == 1)
 {
 if (empty($ipstart))
+{
+$hata = "<b style='color:red;'>Ip başlangıç adresi yazın</b>";
