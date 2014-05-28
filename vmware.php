@@ -125,3 +125,5 @@ if (empty($ipstart))
 $hata = "<b style='color:red;'>Ip başlangıç adresi yazın</b>";
 } else if (empty($ipend))
 {
+$hata = "<b style='color:red;'>Ip bitiş adresi yazın</b>";
+}	
