@@ -127,3 +127,5 @@ $hata = "<b style='color:red;'>Ip başlangıç adresi yazın</b>";
 {
 $hata = "<b style='color:red;'>Ip bitiş adresi yazın</b>";
 }	
+
+else {
