@@ -131,3 +131,5 @@ $hata = "<b style='color:red;'>Ip bitiş adresi yazın</b>";
 else {
 $ilkbu = explode('.',$ipstart);
 $sonbu = explode('.',$ipend);
+$ilkip = $ilkbu[3];
+$sonip = $sonbu[3];
