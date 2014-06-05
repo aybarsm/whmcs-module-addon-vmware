@@ -135,3 +135,5 @@ $ilkip = $ilkbu[3];
 $sonip = $sonbu[3];
 for($ilk = $ilkip; $ilk <= $sonip; $ilk++){
 	$iparray[] = $ilkbu[0].'.'.$ilkbu[1].'.'.$ilkbu[2].'.'.$ilk;
+}
+$ipcheck = join('\', \'',$iparray);
