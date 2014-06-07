@@ -137,3 +137,5 @@ for($ilk = $ilkip; $ilk <= $sonip; $ilk++){
 	$iparray[] = $ilkbu[0].'.'.$ilkbu[1].'.'.$ilkbu[2].'.'.$ilk;
 }
 $ipcheck = join('\', \'',$iparray);
+
+$sql = mysql_query("select ip from vmware_iplist where ip in ('$ipcheck')");
