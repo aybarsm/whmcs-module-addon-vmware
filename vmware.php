@@ -139,3 +139,5 @@ for($ilk = $ilkip; $ilk <= $sonip; $ilk++){
 $ipcheck = join('\', \'',$iparray);
 
 $sql = mysql_query("select ip from vmware_iplist where ip in ('$ipcheck')");
+$say = mysql_num_rows($sql);
+if ($say > 0)
