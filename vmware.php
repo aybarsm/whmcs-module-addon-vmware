@@ -143,3 +143,5 @@ $say = mysql_num_rows($sql);
 if ($say > 0)
 {
 $hata = "<b style='color:red;'>Daha Önce Eklenmiş ipler var</b>";
+}
+else
