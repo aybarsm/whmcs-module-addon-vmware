@@ -147,3 +147,4 @@ $hata = "<b style='color:red;'>Daha Önce Eklenmiş ipler var</b>";
 else
 {
 	foreach($iparray as $ipz){
+$sql = mysql_query("insert into vmware_iplist (ip,ip_type) values ('$ipz', '0')");
