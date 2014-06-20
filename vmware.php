@@ -153,3 +153,4 @@ $sql = mysql_query("insert into vmware_iplist (ip,ip_type) values ('$ipz', '0')"
 $hata = "<b style='color:green;'>Ip'ler eklendi.</b>";
 }	
 	
+}
