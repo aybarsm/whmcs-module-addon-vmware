@@ -154,3 +154,6 @@ $hata = "<b style='color:green;'>Ip'ler eklendi.</b>";
 }	
 	
 }
+
+}
+if($submitip == 1)
