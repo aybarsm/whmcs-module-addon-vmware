@@ -159,3 +159,5 @@ $hata = "<b style='color:green;'>Ip'ler eklendi.</b>";
 if($submitip == 1)
 {
 if (empty($ip))
+{
+$hata = "<b style='color:red;'>Ip adresi yazın</b>";
