@@ -162,3 +162,6 @@ if (empty($ip))
 {
 $hata = "<b style='color:red;'>Ip adresi yazın</b>";
 } else {
+
+$sql = mysql_query("select ip from vmware_iplist where ip = '$ip'");
+$say = mysql_num_rows($sql);
