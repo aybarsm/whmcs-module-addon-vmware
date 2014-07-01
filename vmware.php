@@ -167,3 +167,5 @@ $sql = mysql_query("select ip from vmware_iplist where ip = '$ip'");
 $say = mysql_num_rows($sql);
 if ($say > 0)
 {
+$hata = "<b style='color:red;'>Bu Ip Daha Önce Eklenmiş</b>";
+}
