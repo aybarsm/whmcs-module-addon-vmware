@@ -169,3 +169,5 @@ if ($say > 0)
 {
 $hata = "<b style='color:red;'>Bu Ip Daha Önce Eklenmiş</b>";
 }
+else
+{
