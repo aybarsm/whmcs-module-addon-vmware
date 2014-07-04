@@ -173,3 +173,5 @@ else
 {
 $sql = mysql_query("insert into vmware_iplist (ip,ip_type) values ('$ip', '0')");
 $hata = "<b style='color:green;'>$ip no'lu ip eklendi.</b>";
+}	
+	
