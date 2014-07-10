@@ -181,3 +181,5 @@ $hata = "<b style='color:green;'>$ip no'lu ip eklendi.</b>";
 function vmware_output($params) {
 	
 global $hata;
+	
+echo '<script type="text/javascript">
