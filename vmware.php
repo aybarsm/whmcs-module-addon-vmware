@@ -183,3 +183,5 @@ function vmware_output($params) {
 global $hata;
 	
 echo '<script type="text/javascript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
