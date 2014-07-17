@@ -189,3 +189,5 @@ document.formadd.submit()
 }
 //-->
 </script>';	
+	
+	echo "<div id=\"tabs\">
