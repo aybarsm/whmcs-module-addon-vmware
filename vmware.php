@@ -191,3 +191,5 @@ document.formadd.submit()
 </script>';	
 	
 	echo "<div id=\"tabs\">
+	<ul>
+		<li id=\"tab0\" class=\"tab\"><a href=\"addonmodules.php?module=vmware\">Ip Adresses</a></li>
