@@ -193,3 +193,5 @@ document.formadd.submit()
 	echo "<div id=\"tabs\">
 	<ul>
 		<li id=\"tab0\" class=\"tab\"><a href=\"addonmodules.php?module=vmware\">Ip Adresses</a></li>
+		<li id=\"tab1\" class=\"tab\"><a href=\"addonmodules.php?module=vmware&page=addip\">Add IP</a></li>
+	</ul>
