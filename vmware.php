@@ -196,3 +196,6 @@ document.formadd.submit()
 		<li id=\"tab1\" class=\"tab\"><a href=\"addonmodules.php?module=vmware&page=addip\">Add IP</a></li>
 	</ul>
 </div>";
+
+
+echo '<div id="tab_content">'.$hata.'
