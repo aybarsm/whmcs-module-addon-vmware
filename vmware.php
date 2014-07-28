@@ -199,3 +199,5 @@ document.formadd.submit()
 
 
 echo '<div id="tab_content">'.$hata.'
+<form name="form1" method="post" action="addonmodules.php?module=vmware">
+<table border="0" width="100%" class="form">
