@@ -203,3 +203,5 @@ echo '<div id="tab_content">'.$hata.'
 <table border="0" width="100%" class="form">
 <tbody><tr>
 <td class="fieldarea">Başlangıç IP <input name="ipstart" type="Text" class="textbox" id="ipstart" value=""> İlk IP</td>
+<td class="fieldarea">Bitiş IP <input name="ipend" type="Text" class="textbox" id="ipend" value=""> Son IP</td>
+<td class="fieldarea" style="width:150px;"><input name="submitrange" type="hidden" value="1" /><input name="Submit" type="submit" class="button" value="Ekle"></td>
