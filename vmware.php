@@ -207,3 +207,4 @@ echo '<div id="tab_content">'.$hata.'
 <td class="fieldarea" style="width:150px;"><input name="submitrange" type="hidden" value="1" /><input name="Submit" type="submit" class="button" value="Ekle"></td>
 </tr>
 </tbody></table>
+</form>
