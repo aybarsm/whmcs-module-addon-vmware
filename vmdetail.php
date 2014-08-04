@@ -21,3 +21,15 @@ foreach($info['propSet'] as $props){
 <table width="100%" bgcolor="#ffffff" cellpadding="15"><tr><td>
 
 <h2>VDS Özellikleri</h2>
+
+
+
+<div class="tablebg">
+<table id="sortabletbl1" class="datatable" width="100%" border="0" cellspacing="1" cellpadding="3">
+<tr>
+<tr><td>Adı</td><td><?=$name;?></td></tr>
+<tr><td>Cpu</td><td><?=$cpu;?></td></tr>
+<tr><td>Ram</td><td><?=$ram;?></td></tr>
+<tr><td>Disk</td><td><?=$disk;?></td></tr>
+<tr><td>VMTools</td><td><?=$tools;?></td></tr>
+<tr><td>Power</td><td><?=$power;?></td></tr>

@@ -208,3 +208,6 @@ echo '<div id="tab_content">'.$hata.'
 </tr>
 </tbody></table>
 </form>
+
+<form name="form1" method="post" action="addonmodules.php?module=vmware">
+<table cellspacing="2" cellpadding="3" border="0" width="100%" class="form">
