@@ -211,3 +211,5 @@ echo '<div id="tab_content">'.$hata.'
 
 <form name="form1" method="post" action="addonmodules.php?module=vmware">
 <table cellspacing="2" cellpadding="3" border="0" width="100%" class="form">
+<tbody><tr>
+<td class="fieldarea">IP Adresi <input name="ip" type="Text" class="textbox" id="ip" value=""><input name="submitip" type="hidden" id="submitip" value="1"> Eklemek istediğiniz IP adresini yazın</td>

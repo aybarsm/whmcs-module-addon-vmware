@@ -33,3 +33,13 @@ foreach($info['propSet'] as $props){
 <tr><td>Disk</td><td><?=$disk;?></td></tr>
 <tr><td>VMTools</td><td><?=$tools;?></td></tr>
 <tr><td>Power</td><td><?=$power;?></td></tr>
+</table>
+</div>
+
+<p align="center"><input type="button" value="Close Window" onClick="window.close()" class="button" /></p>
+
+
+
+</td></tr></table>
+
+</body>
