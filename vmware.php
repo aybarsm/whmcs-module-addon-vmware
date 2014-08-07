@@ -215,3 +215,5 @@ echo '<div id="tab_content">'.$hata.'
 <td class="fieldarea">IP Adresi <input name="ip" type="Text" class="textbox" id="ip" value=""><input name="submitip" type="hidden" id="submitip" value="1"> Eklemek istediğiniz IP adresini yazın</td>
 <td class="fieldarea" style="width:150px;"><input name="Submit" type="submit" class="button" value="Ekle"></td></tr>
 </tbody></table>
+</form>
+  </div>';
