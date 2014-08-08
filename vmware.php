@@ -217,3 +217,5 @@ echo '<div id="tab_content">'.$hata.'
 </tbody></table>
 </form>
   </div>';
+
+if($_GET[addip]){
