@@ -219,3 +219,5 @@ echo '<div id="tab_content">'.$hata.'
   </div>';
 
 if($_GET[addip]){
+	
+} else {
