@@ -227,3 +227,5 @@ echo '<br/><form id="form1" name="formadd" method="post" action="addonmodules.ph
 		<th width="23%">IP address</th>
 		<th width="23%">VM ID</th>
 		<th width="23%">Client</th> 
+		<th width="23%">Service</th>
+		<th width="8%"></th>
