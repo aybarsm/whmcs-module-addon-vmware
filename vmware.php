@@ -231,3 +231,5 @@ echo '<br/><form id="form1" name="formadd" method="post" action="addonmodules.ph
 		<th width="8%"></th>
 	</tr>
 	<tbody>';
+
+	$result = select_query("vmware_iplist", "", "", "id", "ASC");
