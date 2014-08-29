@@ -235,3 +235,5 @@ echo '<br/><form id="form1" name="formadd" method="post" action="addonmodules.ph
 	$result = select_query("vmware_iplist", "", "", "id", "ASC");
 	while ($data = mysql_fetch_array( $result )) {
 	echo "<tr>
+	<td>".$data["ip"]."</td>
+	<td><a onclick=\"window.open('../modules/addons/vmware/wmdetail.php?id=".$data["vmid"]."','','width=750,height=350,scrollbars=yes');return false\" href=\"#\">".$data["vmid"]."</a></td>
