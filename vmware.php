@@ -239,3 +239,5 @@ echo '<br/><form id="form1" name="formadd" method="post" action="addonmodules.ph
 	<td><a onclick=\"window.open('../modules/addons/vmware/wmdetail.php?id=".$data["vmid"]."','','width=750,height=350,scrollbars=yes');return false\" href=\"#\">".$data["vmid"]."</a></td>
 	<td><a href=\"clientssummary.php?userid=".$data["clientid"]."\">".$data["clientid"]."</a></td>
 	<td><a href=\"clientsservices.php?userid=".$data["clientid"]."&id=".$data["serviceid"]."\">".$data["serviceid"]."</a></td>";
+	$rezerve = "";
+	$kullanimda = "";
