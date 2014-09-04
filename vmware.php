@@ -241,3 +241,5 @@ echo '<br/><form id="form1" name="formadd" method="post" action="addonmodules.ph
 	<td><a href=\"clientsservices.php?userid=".$data["clientid"]."&id=".$data["serviceid"]."\">".$data["serviceid"]."</a></td>";
 	$rezerve = "";
 	$kullanimda = "";
+	$bosta = "";
+	if($data[ip_type] == 2){
