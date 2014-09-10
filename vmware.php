@@ -247,3 +247,5 @@ echo '<br/><form id="form1" name="formadd" method="post" action="addonmodules.ph
 	} else if($data[ip_type] == 1){
 	$kullanimda = ' selected="selected"';
 	} else {
+	$bosta = ' selected="selected"';
+	}
