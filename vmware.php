@@ -251,3 +251,5 @@ echo '<br/><form id="form1" name="formadd" method="post" action="addonmodules.ph
 	}
 	$durum = '<select name="jumpMenu['.$data["ip"].']" id="jumpMenu" onchange="MM_jumpMenu(\'parent\',this,0)">
 <option value="0"'.$bosta.'>Bosta</option><option value="1"'.$kullanimda.'>Kullanimda</option><option value="2"'.$rezerve.'>Rezerve</option>
+</select>';
+	echo "<td>".$durum."</td></tr>";
