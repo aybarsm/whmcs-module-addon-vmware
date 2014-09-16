@@ -255,3 +255,5 @@ echo '<br/><form id="form1" name="formadd" method="post" action="addonmodules.ph
 	echo "<td>".$durum."</td></tr>";
 	}
 	
+	echo "</tbody>
+	</table></form>";
